@@ -12,6 +12,7 @@
 import SwiftUI
 
 public struct MagneticView_SwiftUI: UIViewRepresentable {
+    public init() {}
     public func makeUIView(context: Context) -> MagneticView {
         MagneticView()
     }
